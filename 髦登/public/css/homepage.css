@@ -230,8 +230,6 @@ main {
     margin-bottom: -150px;
     animation: mymove 6s infinite;
     animation-direction: alternate;
-    /* animation-delay:-2s; */
-    /* display: flex; */
 }
 
 @keyframes mymove {
