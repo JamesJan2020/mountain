@@ -1,8 +1,6 @@
 @font-face {
   font-family: "jf-openhuninn-1.1";
-  src: url("font/jf-openhuninn-1.1.woff") format("woff"),
-    url("font/jf-openhuninn-1.1.ttf") format("truetype"),
-    url("font/jf-openhuninn-1.1.eot") format("embedded-opentype");
+  src: url("font/jf-openhuninn-1.1.woff") format("woff"), url("font/jf-openhuninn-1.1.ttf") format("truetype"), url("font/jf-openhuninn-1.1.eot") format("embedded-opentype");
 }
 
 :root {
@@ -24,6 +22,7 @@ body {
 }
 
 /* 會員 */
+
 .logInBtn {
   width: 150px;
   height: 45px;
@@ -39,7 +38,7 @@ body {
   /* outline: none; */
 }
 
-#drop > a :hover {
+#drop>a :hover {
   background-color: var(--color3);
   color: white;
 }
@@ -60,6 +59,7 @@ body {
 #arrow:hover {
   cursor: pointer;
 }
+
 .aa:hover {
   background-color: var(--color3);
   color: white;
@@ -67,7 +67,8 @@ body {
 }
 
 /* 漢堡 */
-main > #text {
+
+main>#text {
   width: 430px;
   height: 600px;
   margin-top: -120px;
@@ -82,8 +83,7 @@ main {
   top: 0px;
 }
 
-.con,
-.special-con {
+.con, .special-con {
   cursor: pointer;
   display: inline-block;
 }
@@ -97,6 +97,7 @@ main {
 }
 
 /* 漢堡動畫 */
+
 .con {
   width: auto;
   margin: 0 auto;
@@ -182,6 +183,7 @@ main {
 }
 
 /* top */
+
 .topimg {
   width: 100%;
   height: 900px;
@@ -191,6 +193,7 @@ main {
   align-items: center;
   justify-content: center;
   position: relative;
+  background-size: cover;
 }
 
 #logo {
@@ -200,6 +203,7 @@ main {
 }
 
 /* 雲動畫 */
+
 .cloud {
   position: absolute;
   right: 400px;
@@ -274,7 +278,9 @@ main {
 }
 
 /* 路牌類別 */
+
 /* 打字動畫 */
+
 @keyframes typing {
   from {
     width: 0;
@@ -332,10 +338,8 @@ main {
 }
 
 /* 所有路標大小 */
-.imgsvg1,
-.imgsvg2,
-.imgsvg3,
-.imgsvg4 {
+
+.imgsvg1, .imgsvg2, .imgsvg3, .imgsvg4 {
   width: 240px;
   position: absolute;
 }
@@ -348,6 +352,7 @@ main {
 }
 
 /* 路標動畫 */
+
 @-webkit-keyframes shake {
   0% {
     -webkit-transform: rotate(-5deg);
@@ -356,6 +361,7 @@ main {
     -webkit-transform: rotate(5deg);
   }
 }
+
 @keyframes shake {
   50% {
     -webkit-transform: rotate(-5deg);
@@ -415,6 +421,7 @@ main {
 }
 
 /* 圖面動畫 */
+
 @-webkit-keyframes bob-on-hover {
   0% {
     -webkit-transform: translateY(-8px);
@@ -451,6 +458,7 @@ main {
     transform: translateY(-8px);
   }
 }
+
 @keyframes bob-on-hover-float {
   100% {
     -webkit-transform: translateY(-8px);
@@ -458,26 +466,12 @@ main {
   }
 }
 
-.imgsvg2_2,
-.imgsvg1_1,
-.imgsvg3_3,
-.imgsvg4_4 {
+.imgsvg2_2, .imgsvg1_1, .imgsvg3_3, .imgsvg4_4 {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
 }
 
-.imgsvg2_2:hover,
-.imgsvg2_2:focus,
-.imgsvg2_2:active,
-.imgsvg1_1:hover,
-.imgsvg1_1:focus,
-.imgsvg1_1:active,
-.imgsvg3_3:hover,
-.imgsvg3_3:focus,
-.imgsvg3_3:active,
-.imgsvg4_4:hover,
-.imgsvg4_4:focus,
-.imgsvg4_4:active {
+.imgsvg2_2:hover, .imgsvg2_2:focus, .imgsvg2_2:active, .imgsvg1_1:hover, .imgsvg1_1:focus, .imgsvg1_1:active, .imgsvg3_3:hover, .imgsvg3_3:focus, .imgsvg3_3:active, .imgsvg4_4:hover, .imgsvg4_4:focus, .imgsvg4_4:active {
   -webkit-animation-name: bob-on-hover-float, bob-on-hover;
   animation-name: bob-on-hover-float, bob-on-hover;
   -webkit-animation-duration: 0.3s, 1.5s;
@@ -495,6 +489,7 @@ main {
 }
 
 /* footer */
+
 .foot {
   width: 100%;
   height: 160px;
@@ -509,9 +504,8 @@ main {
   margin-bottom: 0px;
 }
 
-
-
 /* 文字動畫 */
+
 #i1 {
   width: 430px;
   height: 60px;
@@ -548,20 +542,19 @@ main {
   from {
     right: -300px;
   }
-
   to {
     right: 0px;
   }
 }
 
-
 /* 回頂部 */
+
 @keyframes jump {
   0% {
-      bottom: 45px;
+    bottom: 45px;
   }
   100% {
-      bottom: 60px;
+    bottom: 60px;
   }
 }
 
@@ -584,6 +577,7 @@ main {
 #to_topimg:hover {
   animation: jump .5s infinite alternate;
 }
+
 p {
   line-height: 2.1em;
   font-size: 18px;
