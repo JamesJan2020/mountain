@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>髦登｜Mountain</title>
     <link rel="stylesheet" href="../css/homepage.css">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
     <script src="../js/jquery.min.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+
 
 
 
@@ -19,27 +20,26 @@
     <div class="topimg">
         <div style="display: flex;float: right;position: absolute;right: 100px;top:22px; position: fixed;">
             <div style="width: 50px;height: 50px;border-radius: 25px;">
-                <img src="../img/upload/<%= memimg%>" width="50" ; height="50" ;
-                    style="object-fit: cover; border-radius: 50%;">
+                <img src="../img/upload/<%= memimg%>" width="50" ; height="50" ; style="object-fit: cover; border-radius: 50%;">
             </div>
             <arrowp id="arrow" style="font-size: 20px;color: var(--color4);margin-top: 20px;" onclick="drop()">▼</arrowp>
             <div id="drop" class="dis" style="background-color:var(--color1);position: absolute;right: -30px;top:80px;">
                 <div style="color: var(--color1);margin-bottom: 8px;font-size: 20px;margin-left: 65px;">▲</div>
                 <a href="/member" class="logInBtn aa" style="outline:none; display:<%= dis%>">會員專區</a>
                 <% if (loga == "登入") {%>
-                <a href="member_login/member_login_2"><button style="outline:none;" class="logInBtn">登入</button></a>
-                <% }else {%>
-                <a href="logout"><button style="outline:none;" class="logInBtn">登出</button></a>
-                <% }%>
+                    <a href="member_login/member_login_2"><button style="outline:none;" class="logInBtn">登入</button></a>
+                    <% }else {%>
+                        <a href="logout"><button style="outline:none;" class="logInBtn">登出</button></a>
+                        <% }%>
             </div>
         </div>
         <main class="d-flex " style="position: fixed;">
-            
+
             <div id="changea" class="con" onclick="change()">
                 <div id="change1" class="bar"></div>
                 <div id="change2" class="bar"></div>
                 <div id="change3" class="bar"></div>
-                
+
             </div>
             <div id="text" class="text" style="z-index: 1;">
                 <div style="padding-top: 200px;">

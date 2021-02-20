@@ -3,7 +3,6 @@
     src: url('../font/jf-openhuninn-1.1.woff') format("woff"), url('../font/jf-openhuninn-1.1.ttf') format("truetype"), url('../font/jf-openhuninn-1.1.eot') format("embedded-opentype");
 }
 
-
 :root {
     --color1: #E2E1D1;
     --color2: #D2DDD3;
@@ -77,8 +76,9 @@ body {
     line-height: 72px;
     display: flex;
 }
-.abox{
-    width:220px;
+
+.abox {
+    width: 220px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -154,14 +154,14 @@ body {
     height: 574px;
     display: flex;
     flex-wrap: wrap;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .card {
     width: 228px;
     height: 272px;
     background-color: white;
-    margin-right: 30px;
+    margin-right: 20px;
     margin-bottom: 30px;
 }
 
