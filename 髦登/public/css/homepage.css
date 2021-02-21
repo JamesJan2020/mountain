@@ -190,7 +190,7 @@ main {
 
 .topimg {
     width: 100%;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: auto;
     height: 900px;
     background-image: url("../img/homepage_img/top_homepage.jpg");
@@ -199,6 +199,7 @@ main {
     align-items: center;
     justify-content: center;
     position: relative;
+    background-size: cover;
 }
 
 #logo {
@@ -276,11 +277,12 @@ main {
 
 .bodyimg {
     width: 100%;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: auto;
     height: 2111px;
     background-image: url("../img/homepage_img/body_homepage.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -521,11 +523,12 @@ main {
 
 .foot {
     width: 100%;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: auto;
     height: 160px;
     text-align: center;
     margin: auto;
+    background-size: cover;
 }
 
 .footertext {
